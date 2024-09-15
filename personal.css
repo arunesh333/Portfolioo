@@ -1,0 +1,115 @@
+body {
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.container {
+    width: 375px;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #838383, #8e8e8e, #999999, #a5a5a5, #b0b0b0, #bababa, #c5c5c5, #cfcfcf, #dbdbdb, #e7e7e7, #f3f3f3, #ffffff);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 5px;
+}
+
+.left-arrow {
+    font-size: 30px;
+    margin-left: 10px;
+    color: #333; 
+    text-decoration: none; 
+}
+
+.heading {
+    
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.heading h1 {
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+
+    padding: 5px 0;
+    letter-spacing: 0.5px;
+    font-family: inherit;
+}
+
+.image {
+    margin-top: 40px;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: 5px;
+    border-color: rgba(255, 255, 255, 0.534);
+    border-radius: 50%;
+}
+
+.image img:hover {
+    cursor: none;
+}
+
+.bio p {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: italic;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 17px;
+    color: #1c1c1c;
+    word-spacing: 3px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px 5px;
+    margin: 0 auto;
+}
+
+.details h2 {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #666666;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.details h1 {
+    margin-left: 10px;
+    padding-top: 2px;
+    font-size: 15px;
+    font-style: normal;
+    color: #4b0082;
+    font-family: 'Lucida Sans';
+}
+
+.details li {
+    margin: 0%;
+}
+
+.back {
+    width: 50px;
+    height: 10px;
+    margin-bottom: 10px;
+}

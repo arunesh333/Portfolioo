@@ -1,0 +1,111 @@
+body {
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    width: 375px;
+    min-height: 100vh;
+    background-image: linear-gradient(to left bottom, #660042, #731653, #812764, #8e3676, #9a4589, #a25295, #a95ea0, #b16aac, #b676b3, #bb82b9, #c18dc0, #c699c6);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    background-color: rgba(221, 221, 221, 0.45);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.left-arrow {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.heading {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centering vertically */
+    height: 50px; /* Ensure there's enough height for centering */
+}
+
+.heading h1 {
+    font-size: 36px;
+    color: #FFD700;
+    -webkit-text-stroke: 1.5px black;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(41, 41, 41, 0.548);
+    margin: 0;
+}
+
+.head {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px;
+    text-align: start;
+    color: brown;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-variant: inherit;
+}
+
+.head h1 {
+    font-size: 30px;
+    color: lavenderblush;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+    letter-spacing: 1px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.show1, .show2 {
+    background: #f9f9f9;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.show1 summary, .show2 summary {
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+details summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.show1 p, .show2 p {
+    font-size: 12px;
+    margin-top: 0;
+    text-align: center;
+    color: #777;
+}
